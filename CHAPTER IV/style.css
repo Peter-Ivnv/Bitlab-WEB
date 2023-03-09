@@ -1,0 +1,133 @@
+.main {
+    background-color: hwb(240 84% 5%);
+    font-family: inherit;
+    width: 100%-4px;
+    border: 2px black solid;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: rgb(219, 219, 219);
+    display: flex;
+
+}
+.main p {
+    color: #0077FF;
+}
+
+.letterVK {
+    margin-left: 170px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.shapka {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #5181b8 
+}
+.poisk input {
+    border-radius: 45px;
+    width: 15%;
+    height: 20px;
+    background-color: rgb(235, 235, 245);
+    color: black;
+}
+
+.poisk {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 75%;
+    margin-left: 130px;
+    border-radius: 20px;
+}
+
+.menu a {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none; color:#0077FF;
+    font-weight: 700;
+    margin-top: 10px;
+    width: 40%;
+    margin-left: 170px;
+    display: flex;
+
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.info {
+    background-color: white;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.column1 {
+    background-color: aqua;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30%;
+  
+}
+.avatar p {
+background-color: green;
+width: 90%;
+display: flex;
+text-decoration: none;
+margin-left: 40px;
+
+}
+.avatar button {
+    margin-left: 82px;
+    background-color:hwb(240 84% 5%);
+    width: 50%;
+    border-radius: 10%;
+}
+.avatar button:hover {
+    background-color: hwb(240 84% 5%);
+    text-decoration: underline;
+    align-items: center;
+}
+
+.friends {
+    background-color: yellow;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.f1 {
+    width: 90%;
+    background-color: red;
+}
+.photos {
+    width: 90%;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+.photos img{
+   width: 50;
+   border-radius: 50%;
+
+}
+.friendsavatar{
+    width: 10%;
+    margin-left: 40px;
+}
+
+.column2 {
+    background-color: red;
+    margin-top: 15px;
+    width: 60%;
+    flex-wrap: wrap;
+}
+.name {
+    background-color: yellow;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fio {
+    
+}
