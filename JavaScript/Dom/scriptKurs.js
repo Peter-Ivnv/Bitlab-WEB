@@ -1,5 +1,5 @@
-changeMoney.addEventListener ('click', changeKurs);
-
+changeMoney.addEventListener ('mouseout', changeKurs);
+moneySum.addEventListener ('keyup', changeKurs);
 function changeKurs(){
     let money = moneySum.value;
     let kurs = changeMoney.value;

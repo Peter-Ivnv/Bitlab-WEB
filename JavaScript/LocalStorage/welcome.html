@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WELCOME</title>
+    <link rel="stylesheet" type="text/css" href="styleTwitter.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="twitter">
+            <p>TWITTER</p>
+        </div>
+
+        <div class="rightInfo">
+            <a href="#">Tweets</a>
+            <a href="enterTwitter.html">Login</a>
+            <a href="SprintTask.html">Register</a>
+
+        </div>
+    </div>
+    <div class="main">
+        <div class="empty"></div>
+        <div class="data">
+            <div>
+                WELCOME<h1 id="welcome_fullname1"></h1>
+            </div>
+            <div>
+                <p>EMAIL:</p>
+                <p id="welcome_email"></p>
+            </div>
+            <div>
+                <p>FULL NAME:</p>
+                <p id="welcome_fullname"> </p>
+            </div>
+            <div>
+                <p>COUNTRY: </p>
+                <p id="welcome_country"> </p>
+            </div>
+            <div>
+                <p>BIRTHDATE:</p>
+                <p id="welcome_birth_date"> </p>
+            </div>
+        </div>
+        <div class="empty"></div>
+    </div>
+    <script>
+        let json = localStorage.getItem("mama")
+        let data = JSON.parse(json)
+        welcome_email.innerHTML = data.email
+        welcome_fullname.innerHTML = data.fullname
+        welcome_fullname1.innerHTML = data.fullname
+    
+        welcome_country.innerHTML = data.country
+        welcome_birth_date.innerHTML = data.birth_date
+    
+       // login_button.innerHTML = data.fullname1
+    </script>
+</body>
+
+
+</html>
